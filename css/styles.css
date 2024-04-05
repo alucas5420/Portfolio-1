@@ -1,0 +1,264 @@
+/* Setting up the structure for the website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    background-color: black;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+  }
+  
+  /* Making the wrapper of the website */
+  
+  .site-wrapper {
+    max-width: 1280px;
+    min-height: 400px;
+    background-color: white;
+    margin: 0 auto;
+  }
+  
+  /* Setting up the main area of the website */
+  
+  .large {
+    height: 2150px;
+    background-color: white;
+  }
+  .large .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  .large .words5 {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .large .red-box {
+    background-color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .large .images2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+  .large .images2 .column {
+    flex: 33.33%;
+    padding: 5px;
+    width: 50%;
+  }
+  .large .images4 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 780px;
+    height: 200px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+  }
+  .large .images4 .column2 {
+    flex: 33.33%;
+    padding: 5px;
+    width: 100%;
+  }
+  .large .images5 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 70px;
+    background-color: black;
+  }
+  .large .images5 .column3 {
+    flex: 33.33%;
+    padding: 5px;
+    width: 100%;
+  }
+  .large .images6 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 70px;
+    background-color: black;
+  }
+  .large .images6 .column4 {
+    flex: 33.33%;
+    padding: 5px;
+    width: 100%;
+  }
+  .large .images7 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 780px;
+    height: 200px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+  }
+  .large .images7 .column3 {
+    flex: 33.33%;
+    padding: 5px;
+    width: 100%;
+  }
+  .large .images8 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 780px;
+  }
+  .large .images8 .column {
+    flex: 33.33%;
+    padding: 5px;
+    width: 100%;
+  }
+  .large .grey-box {
+    background-color: gray;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .large .images3 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .large .images3 .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Setting up the top area with the logo and search bar for the website */
+  
+  .announcement {
+    height: 80px;
+    background-color: white;
+    display: flex;
+  }
+  .announcement .words {
+    margin: auto;
+    text-transform: uppercase;
+  }
+  .announcement .words .red-box {
+    background-color: #3665f3;
+    padding: 6px 19px;
+    text-decoration: none;
+    color: white;
+  }
+  .announcement .words2 {
+    margin: auto;
+    text-transform: uppercase;
+  }
+  .announcement .words2 .red-box {
+    background-color: #3665f3;
+    padding: 6px 19px;
+    text-decoration: none;
+    color: white;
+  }
+  .announcement .login {
+    align-self: center;
+    margin-right: 20px;
+  }
+  .announcement .login .fa-user {
+    margin-left: 10px;
+  }
+  
+  /* Making the main area with the scrolling image and the text */
+  
+  .hero {
+    position: relative;
+    height: 500px;
+    background-image: url(../images/Background\ image.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+  }
+  .hero .callout {
+    color: #EB5406;
+    margin: auto;
+    font-size: 48px;
+  }
+  
+  /* Setting up the footer for the website */
+  
+  .footer2 {
+    height: 30px;
+    background-color: white;
+    display: flex;
+    margin: auto;
+  }
+  .footer2 .words3 {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .footer2 .words3 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Setting up the navigation bar and the banners */
+  
+  .search {
+    height: 60px;
+    background-color: black;
+    display: flex;
+  }
+  .search .words4 {
+    margin: auto;
+    color: white;
+  }
+  .search .words4 a {
+    text-decoration: none;
+    color: white;
+  }
+  .search .images2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .search .images2 .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  /*# sourceMappingURL=styles.css.map */
+  
